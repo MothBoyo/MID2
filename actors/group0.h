@@ -331,4 +331,18 @@ extern const Gfx white_particle_small_dl_end[];
 extern const Gfx white_particle_small_dl[];
 extern const Gfx white_particle_small_unused_dl[];
 
+#include "TRAMPOLINE/geo_header.h"
+
+#include "TRAMPOLINE/collision_header.h"
+
+#include "ROOK/collision_header.h"
+
+#include "ROOK/geo_header.h"
+
+#include "skinned/geo_header.h"
+
+#include "mario/geo_header.h"
+
+#include "CUBE/geo_header.h"
+
 #endif

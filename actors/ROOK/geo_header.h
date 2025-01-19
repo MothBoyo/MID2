@@ -1,0 +1,18 @@
+extern const GeoLayout ROOK_geo[];
+extern u8 ROOK_Rook_ci4[];
+extern u8 ROOK_Rook_pal_rgba16[];
+extern u8 ROOK_Light_Wood_i8[];
+extern u8 ROOK_Light_Pillar_i8[];
+extern Vtx ROOK__10_To_replace_mesh_layer_1_vtx_0[365];
+extern Gfx ROOK__10_To_replace_mesh_layer_1_tri_0[];
+extern Vtx ROOK__10_To_replace_mesh_layer_1_vtx_1[74];
+extern Gfx ROOK__10_To_replace_mesh_layer_1_tri_1[];
+extern Vtx ROOK__10_To_replace_mesh_layer_1_vtx_2[101];
+extern Gfx ROOK__10_To_replace_mesh_layer_1_tri_2[];
+extern Gfx mat_ROOK_Shiny_Plastic[];
+extern Gfx mat_revert_ROOK_Shiny_Plastic[];
+extern Gfx mat_ROOK_Wood[];
+extern Gfx mat_revert_ROOK_Wood[];
+extern Gfx mat_ROOK_Pillar[];
+extern Gfx mat_revert_ROOK_Pillar[];
+extern Gfx ROOK__10_To_replace_mesh_layer_1[];

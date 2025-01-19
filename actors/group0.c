@@ -30,3 +30,10 @@
 #include "src/s2d_engine/s2d_config.h"
 #include FONT_C_FILE
 #endif
+
+#include "TRAMPOLINE/model.inc.c"
+#include "TRAMPOLINE/collision.inc.c"
+#include "ROOK/collision.inc.c"
+#include "ROOK/model.inc.c"
+#include "skinned/model.inc.c"
+#include "CUBE/model.inc.c"

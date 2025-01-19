@@ -6,6 +6,7 @@
 #include "game/moving_texture.h"
 
 // geo
+extern const GeoLayout          CUBE_geo[];
 extern const GeoLayout castle_geo_000F00[];
 extern const GeoLayout castle_geo_000F18[];
 extern const GeoLayout castle_geo_000F30[];
@@ -153,5 +154,8 @@ extern const struct MovtexQuadCollection inside_castle_movtex_moat_water[];
 
 // script
 extern const LevelScript level_castle_inside_entry[];
+
+
+#include "levels/castle_inside/header.inc.h"
 
 #endif

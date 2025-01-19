@@ -8,8 +8,8 @@ struct ObjectHitbox sMetalBoxHitbox = {
     /* numLootCoins:      */ 0,
     /* radius:            */ 220,
     /* height:            */ 300,
-    /* hurtboxRadius:     */ 220,
-    /* hurtboxHeight:     */ 300,
+    /* hurtboxRadius:     */ 440,
+    /* hurtboxHeight:     */ 600,
 };
 
 s32 check_if_moving_over_floor(f32 maxDist, f32 offset) {

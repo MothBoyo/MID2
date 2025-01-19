@@ -1,0 +1,13 @@
+extern void scroll_jrb_dl_VISUAL_mesh_layer_1_vtx_8();
+extern void scroll_jrb_dl_VISUAL_mesh_layer_1_vtx_16();
+extern void scroll_jrb_dl_VISUAL_mesh_layer_1_vtx_17();
+extern void scroll_jrb_dl_VISUAL_001_mesh_layer_1_vtx_4();
+extern void scroll_jrb_dl_VISUAL_002_mesh_layer_1_vtx_6();
+extern void scroll_jrb_dl_VISUAL_002_mesh_layer_1_vtx_7();
+extern void scroll_gfx_mat_jrb_dl_Death_Sand_layer1();
+extern void scroll_gfx_mat_jrb_dl_Lava_layer1();
+extern void scroll_gfx_mat_jrb_dl_Death_Sand_FADE_OUT_layer5();
+extern void scroll_gfx_mat_jrb_dl_face_1_layer1();
+extern void scroll_gfx_mat_jrb_dl_wall_001_layer1();
+extern void scroll_gfx_mat_jrb_dl_wall__FADE_OUT__layer5();
+extern void scroll_jrb();

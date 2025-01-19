@@ -3,6 +3,9 @@
 
 #define MODEL_NONE                             0x00
 
+/* fast64 object exports get inserted here */
+#define MODEL_ROOK                        227
+
 /* Global models that are loaded for every level */
 
 #define MODEL_MARIO                            0x01        // mario_geo
@@ -442,7 +445,7 @@
 #define MODEL_TTM_SLIDE_EXIT_PODIUM       0x7B        // ttm_geo_000DF4
 #define MODEL_WOODEN_SIGNPOST             0x7C        // wooden_signpost_geo
 #define MODEL_UNKNOWN_7D                  0x7D        // referenced in macro presets. Unknown usage
-// find me
+#define MODEL_TRAMPOLINE_MY               0x7E
 #define MODEL_CANNON_BARREL               0x7F        // cannon_barrel_geo
 #define MODEL_CANNON_BASE                 0x80        // cannon_base_geo
 #define MODEL_BREAKABLE_BOX               0x81        // breakable_box_geo
@@ -544,6 +547,7 @@
 #define MODEL_CHUCKYA                     0xDF        // chuckya_geo
 #define MODEL_WHITE_PUFF                  0xE0        // white_puff_geo
 #define MODEL_TRAJECTORY_MARKER_BALL      0xE1        // bowling_ball_track_geo - duplicate used in SSL Pyramid small sized and as a track ball
+#define MODEL_CUBE                        0xE2        // the everlovely rotating cube for my hub
 
 #ifdef IA8_30FPS_COINS
 #define MODEL_SILVER_COIN                 0xE2        // silver_coin_geo

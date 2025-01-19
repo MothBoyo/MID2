@@ -1,0 +1,12 @@
+extern const GeoLayout CUBE_geo[];
+extern u8 CUBE_Pattern_02_Green_Wallpaper_1_32x32__Lighter_alt_2__rgba16[];
+extern u8 CUBE_greyface_32x32__CRUELTY_SQUAD__rgba16[];
+extern Vtx CUBE_HUB_001_mesh_layer_1_vtx_0[20];
+extern Gfx CUBE_HUB_001_mesh_layer_1_tri_0[];
+extern Vtx CUBE_HUB_001_mesh_layer_1_vtx_1[24];
+extern Gfx CUBE_HUB_001_mesh_layer_1_tri_1[];
+extern Gfx mat_CUBE_DECORATION_CUBE_layer1[];
+extern Gfx mat_revert_CUBE_DECORATION_CUBE_layer1[];
+extern Gfx mat_CUBE_BLACK[];
+extern Gfx mat_revert_CUBE_BLACK[];
+extern Gfx CUBE_HUB_001_mesh_layer_1[];

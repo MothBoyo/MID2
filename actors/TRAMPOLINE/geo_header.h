@@ -1,0 +1,14 @@
+extern const GeoLayout TRAMPOLINE_geo[];
+extern Lights1 TRAMPOLINE_checkerbox_lights;
+extern Lights1 TRAMPOLINE_spring_lights;
+extern u8 TRAMPOLINE_KKIIDDZZ_DAT_2768__p00_i8[];
+extern u8 TRAMPOLINE_KKIIDDZZ_DAT_2419__p00_i8[];
+extern Vtx TRAMPOLINE_Circle_mesh_layer_1_vtx_0[144];
+extern Gfx TRAMPOLINE_Circle_mesh_layer_1_tri_0[];
+extern Vtx TRAMPOLINE_Circle_mesh_layer_1_vtx_1[32];
+extern Gfx TRAMPOLINE_Circle_mesh_layer_1_tri_1[];
+extern Gfx mat_TRAMPOLINE_checkerbox[];
+extern Gfx mat_revert_TRAMPOLINE_checkerbox[];
+extern Gfx mat_TRAMPOLINE_spring[];
+extern Gfx mat_revert_TRAMPOLINE_spring[];
+extern Gfx TRAMPOLINE_Circle_mesh_layer_1[];

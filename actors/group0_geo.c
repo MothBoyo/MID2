@@ -16,3 +16,9 @@
 #include "water_splash/geo.inc.c"
 #include "sparkle_animation/geo.inc.c"
 #include "mario/geo.inc.c"
+
+#include "TRAMPOLINE/geo.inc.c"
+
+#include "ROOK/geo.inc.c"
+#include "skinned/geo.inc.c"
+#include "CUBE/geo.inc.c"
