@@ -33,7 +33,6 @@ const GeoLayout castle_inside_dl_2Out_geo[] = {
 			GEO_DISPLAY_LIST(LAYER_OPAQUE_DECAL, castle_inside_dl_HUB_mesh_layer_2),
 			GEO_DISPLAY_LIST(LAYER_ALPHA, castle_inside_dl_HUB_mesh_layer_4),
 		GEO_CLOSE_NODE(),
-		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 21, 77, -1422, castle_inside_dl_HUB_001_mesh_layer_1),
 		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 876, 166, -2740, castle_inside_dl_PAINTING_3__MOTOS_MILL_Mesh_mesh_layer_1),
 		GEO_ASM(0, geo_painting_update),
 		GEO_ASM(PAINTING_ID(0, 1), geo_painting_draw),

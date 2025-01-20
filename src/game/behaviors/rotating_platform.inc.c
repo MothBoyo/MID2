@@ -41,3 +41,7 @@ void bhv_rotating_platform_loop(void) {
     o->oAngleVelYaw = speed << 4;
     o->oFaceAngleYaw += o->oAngleVelYaw;
 }
+
+void bhv_rotating_cube(void){
+    o->oFaceAngleYaw+=80;
+}
