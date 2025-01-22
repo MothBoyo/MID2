@@ -158,6 +158,14 @@ const LevelScript level_wf_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, wf_area_1),
@@ -245,8 +253,13 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_GOOMBA, -3151, 2915, -4338, 0, 0, 0, (20 << 16), bhvGoomba),
 		OBJECT(MODEL_NONE, 0, 700, -150, 0, 0, 0, (19 << 16), bhvSpinAirborneWarp),
 		OBJECT(MODEL_EXCLAMATION_BOX, -3561, 1689, -3396, 0, 0, 0, (2 << 16), bhvExclamationBox),
-		OBJECT(MODEL_NONE, 301, -500, -1418, 0, 0, 0, (21 << 16), bhvWarp),
-		OBJECT(MODEL_NONE, 669, 454, -1298, 0, 0, 0, (20 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 301, -542, -1418, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 334, -542, -1494, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 238, -538, -1331, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 238, -438, -1331, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 304, -432, -1418, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 363, -426, -1498, 0, 0, 0, (21 << 16), bhvWarp),
+		OBJECT(MODEL_NONE, 669, 200, -1298, 0, 0, 0, (20 << 16), bhvWarpPipe),
 		OBJECT(MODEL_STAR, -175, 4030, -5081, 0, 0, 0, (4 << 24), bhvStar),
 		OBJECT(MODEL_STAR, 1154, 2463, -5014, 0, 0, 0, (3 << 24), bhvStar),
 		TERRAIN(wf_area_2_collision),
