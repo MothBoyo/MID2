@@ -22,14 +22,14 @@ void whomp_init(void) {
 
     if (o->oBehParams2ndByte != 0) {
         gSecondCameraFocus = o;
-        cur_obj_scale(2.0f);
+        cur_obj_scale(3.0f);
         if (o->oSubAction == 0) {
             if (o->oDistanceToMario < 600.0f) {
                 o->oSubAction++;
                 seq_player_lower_volume(SEQ_PLAYER_LEVEL, 60, 40);
             } else {
                 cur_obj_set_pos_to_home();
-                o->oHealth = 3;
+                o->oHealth = 4;
             }
         } else if (cur_obj_update_dialog_with_cutscene(MARIO_DIALOG_LOOK_UP, 
             DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, DIALOG_114)) {
