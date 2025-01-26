@@ -166,6 +166,7 @@ const LevelScript level_wf_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, wf_area_1),
@@ -176,6 +177,7 @@ const LevelScript level_wf_entry[] = {
 		WARP_NODE(5, LEVEL_WF, 0x02, 8, WARP_NO_CHECKPOINT),
 		WARP_NODE(6, LEVEL_WF, 0x02, 9, WARP_NO_CHECKPOINT),
 		WARP_NODE(7, LEVEL_WF, 0x02, 10, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_NONE, 907, 1102, -4324, 0, 0, 0, (2 << 16), bhvCoinFormation),
 		OBJECT(MODEL_NONE, -3582, 761, -1922, 0, 0, 0, 0x00000000, bhvCoinFormation),
 		OBJECT(MODEL_NONE, -2291, 1098, -3084, 0, 90, 0, 0x00000000, bhvCoinFormation),
@@ -231,6 +233,7 @@ const LevelScript level_wf_entry[] = {
 		WARP_NODE(19, LEVEL_JRB, 0x02, 20, WARP_NO_CHECKPOINT),
 		WARP_NODE(21, LEVEL_WF, 0x03, 1, WARP_NO_CHECKPOINT),
 		WARP_NODE(2, LEVEL_WF, 0x02, 20, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_NONE, -4039, 2906, -5269, 0, 0, 0, (17 << 16), bhvFadingWarp),
 		OBJECT(MODEL_NONE, 1609, 1131, -2374, 0, 0, 0, 0x00000000, bhvCoinFormation),
 		OBJECT(MODEL_NONE, -3529, 2912, -4931, 0, 0, 0, (2 << 16), bhvCoinFormation),
@@ -276,6 +279,7 @@ const LevelScript level_wf_entry[] = {
 		WARP_NODE(2, LEVEL_WF, 0x02, 20, WARP_NO_CHECKPOINT),
 		WARP_NODE(21, LEVEL_WF, 0x03, 1, WARP_NO_CHECKPOINT),
 		WARP_NODE(1, LEVEL_WF, 0x03, 1, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_PIRANHA_PLANT, -4999, 281, 1008, 0, 0, 0, (5 << 24) | (1 << 16), bhvFirePiranhaPlant),
 		OBJECT(MODEL_PIRANHA_PLANT, 7219, 91, 964, 0, 0, 0, (5 << 24) | (1 << 16), bhvFirePiranhaPlant),
 		OBJECT(MODEL_PIRANHA_PLANT, 5641, 292, -5675, 0, 0, 0, (5 << 24) | (1 << 16), bhvFirePiranhaPlant),

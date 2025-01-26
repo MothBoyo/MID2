@@ -3,6 +3,7 @@
 const GeoLayout jrb_area_4_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_TRANSPARENT, 0, 3200, 0, jrb_dl_DEATH_002_mesh_layer_5),
 		GEO_DISPLAY_LIST(LAYER_OPAQUE, jrb_dl_VISUAL_002_mesh_layer_1),
 		GEO_DISPLAY_LIST(LAYER_TRANSPARENT, jrb_dl_VISUAL_002_mesh_layer_5),
 	GEO_CLOSE_NODE(),

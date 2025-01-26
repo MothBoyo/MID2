@@ -7,6 +7,7 @@ extern void scroll_jrb_dl_VISUAL_002_mesh_layer_1_vtx_7();
 extern void scroll_gfx_mat_jrb_dl_Death_Sand_layer1();
 extern void scroll_gfx_mat_jrb_dl_Lava_layer1();
 extern void scroll_gfx_mat_jrb_dl_Death_Sand_FADE_OUT_layer5();
+extern void scroll_gfx_mat_jrb_dl_f3dlite_material_002_layer5();
 extern void scroll_gfx_mat_jrb_dl_face_1_layer1();
 extern void scroll_gfx_mat_jrb_dl_wall_001_layer1();
 extern void scroll_gfx_mat_jrb_dl_wall__FADE_OUT__layer5();

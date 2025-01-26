@@ -154,6 +154,12 @@ const LevelScript level_jrb_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, jrb_area_1),
@@ -166,6 +172,7 @@ const LevelScript level_jrb_entry[] = {
 		WARP_NODE(8, LEVEL_JRB, 0x02, 1, WARP_NO_CHECKPOINT),
 		WARP_NODE(2, LEVEL_JRB, 0x01, 4, WARP_NO_CHECKPOINT),
 		WARP_NODE(11, LEVEL_JRB, 0x04, 1, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_CHUCKYA, -3197, -1117, -2760, 0, 0, 0, 0x00000000, bhvChuckya),
 		OBJECT(MODEL_CHUCKYA, 1213, -1117, -5792, 0, 0, 0, 0x00000000, bhvChuckya),
 		OBJECT(MODEL_CHUCKYA, 3345, -1441, -10440, 0, 0, 0, 0x00000000, bhvChuckya),
@@ -225,8 +232,11 @@ const LevelScript level_jrb_entry[] = {
 		WARP_NODE(0xF1, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(1, LEVEL_JRB, 0x02, 1, WARP_NO_CHECKPOINT),
 		WARP_NODE(2, LEVEL_JRB, 0x01, 4, WARP_NO_CHECKPOINT),
+		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_NONE, -2028, 919, -100, 0, 0, 0, (1 << 16), bhvSpinAirborneWarp),
 		OBJECT(MODEL_NONE, 11344, -4258, -5262, 0, 0, 0, (2 << 16), bhvFadingWarp),
+		OBJECT(MODEL_NONE, -2028, 0, 100, 0, 0, 0, (2 << 16), bhvFadingWarp),
 		OBJECT(MODEL_STAR, 11344, -4002, -5262, 0, 0, 0, (3 << 24), bhvStar),
 		TERRAIN(jrb_area_2_collision),
 		MACRO_OBJECTS(jrb_area_2_macro_objs),
@@ -241,6 +251,7 @@ const LevelScript level_jrb_entry[] = {
 		WARP_NODE(0xF1, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
 		WARP_NODE(1, LEVEL_JRB, 0x04, 1, WARP_NO_CHECKPOINT),
 		WARP_NODE(2, LEVEL_JRB, 0x01, 4, WARP_NO_CHECKPOINT),
+		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_BULLY_BOSS, 3194, 1950, -4118, 0, 0, 0, (4 << 24), bhvBigBully),
 		OBJECT(MODEL_NONE, 3194, 1950, -4118, 0, 0, 0, (2 << 16), bhvCoinFormation),
 		OBJECT(MODEL_NONE, 0, 250, 0, 0, 0, 0, (2 << 16), bhvCoinFormation),

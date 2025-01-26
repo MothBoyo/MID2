@@ -151,6 +151,15 @@ void scroll_gfx_mat_jrb_dl_Death_Sand_FADE_OUT_layer5() {
 
 };
 
+void scroll_gfx_mat_jrb_dl_f3dlite_material_002_layer5() {
+	Gfx *mat = segmented_to_virtual(mat_jrb_dl_f3dlite_material_002_layer5);
+
+
+	shift_s(mat, 12, PACK_TILESIZE(0, 1));
+	shift_t(mat, 17, PACK_TILESIZE(0, 1));
+
+};
+
 void scroll_gfx_mat_jrb_dl_face_1_layer1() {
 	Gfx *mat = segmented_to_virtual(mat_jrb_dl_face_1_layer1);
 
@@ -182,6 +191,7 @@ void scroll_jrb() {
 	scroll_gfx_mat_jrb_dl_Death_Sand_layer1();
 	scroll_gfx_mat_jrb_dl_Lava_layer1();
 	scroll_gfx_mat_jrb_dl_Death_Sand_FADE_OUT_layer5();
+	scroll_gfx_mat_jrb_dl_f3dlite_material_002_layer5();
 	scroll_gfx_mat_jrb_dl_face_1_layer1();
 	scroll_gfx_mat_jrb_dl_wall_001_layer1();
 	scroll_gfx_mat_jrb_dl_wall__FADE_OUT__layer5();
