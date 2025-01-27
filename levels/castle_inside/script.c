@@ -87,6 +87,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_NONE, 3971, 1191, -634, 0, 0, 0, 0x00000000, bhvFishSpawner),
 		MARIO_POS(0x01, 0, 0, 17, -291),
 		OBJECT(MODEL_NONE, 21, 248, -1422, 0, 0, 0, (100 << 16), bhvPaintingDeathWarp),
+		OBJECT(MODEL_NONE, 21, 746, -2890, 0, 0, 0, (101 << 16), bhvFadingWarp),
 		OBJECT(MODEL_NONE, 0, 17, -291, 0, 180, 0, 0x000A0000, bhvSpinAirborneWarp),
 		TERRAIN(castle_inside_area_1_collision),
 		ROOMS(castle_inside_area_1_collision_rooms),
