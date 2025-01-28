@@ -37,3 +37,10 @@
 #include "ROOK/model.inc.c"
 #include "skinned/model.inc.c"
 #include "CUBE/model.inc.c"
+
+#include "wiggler_body/model.inc.c"
+#include "wiggler_body/anims/data.inc.c"
+#include "wiggler_body/anims/table.inc.c"
+#include "wiggler_head/model.inc.c"
+#include "wiggler_head/anims/data.inc.c"
+#include "wiggler_head/anims/table.inc.c"

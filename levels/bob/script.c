@@ -138,6 +138,7 @@ const LevelScript level_bob_entry[] = {
 		INSTANT_WARP(0x00, 0x02, 5541, -532, 18906),
 		INSTANT_WARP(0x01, 0x01, -5541, 532, -18906),
 		WARP_NODE(241, LEVEL_CASTLE, 0x01, 100, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_WIGGLER_HEAD, 0, 113, 0, 0, 0, 0, 0x00000000, bhvWigglerHead),
 		TERRAIN(bob_area_2_collision),
 		MACRO_OBJECTS(bob_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),

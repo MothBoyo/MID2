@@ -22,3 +22,6 @@
 #include "ROOK/geo.inc.c"
 #include "skinned/geo.inc.c"
 #include "CUBE/geo.inc.c"
+
+#include "wiggler_body/geo.inc.c"
+#include "wiggler_head/geo.inc.c"
