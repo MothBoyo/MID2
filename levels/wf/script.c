@@ -167,6 +167,10 @@ const LevelScript level_wf_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, wf_area_1),
@@ -194,10 +198,10 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_BOWLING_BALL, 275, 1740, -4614, 0, 0, 0, 0x00000000, bhvFireSpitter),
 		OBJECT(MODEL_HEAVE_HO, 210, 966, -3063, 0, 0, 0, 0x00000000, bhvHeaveHo),
 		OBJECT(MODEL_HEAVE_HO, -591, 990, -1515, 0, 144, 0, 0x00000000, bhvHeaveHo),
-		OBJECT(MODEL_NONE, -3799, 1190, -2887, 0, 0, 0, 0x00000000, bhvHiddenStar),
+		OBJECT(MODEL_NONE, -3799, 1190, -2887, 0, 0, 0, (2 << 24), bhvHiddenStar),
 		MARIO_POS(0x01, 0, 0, 200, 0),
 		OBJECT(MODEL_RED_COIN, 906, 973, -4755, 0, 0, 0, 0x00000000, bhvRedCoin),
-		OBJECT(MODEL_NONE, 925, 1870, -2481, 0, 0, 0, (1 << 24), bhvHiddenRedCoinStar),
+		OBJECT(MODEL_NONE, 925, 1870, -2481, 0, 0, 0, (3 << 24), bhvHiddenRedCoinStar),
 		OBJECT(MODEL_RED_COIN, 1282, 973, -3004, 0, 0, 0, 0x00000000, bhvRedCoin),
 		OBJECT(MODEL_RED_COIN, 925, 2177, -2481, 0, 0, 0, 0x00000000, bhvRedCoin),
 		OBJECT(MODEL_RED_COIN, 1138, 1221, -1868, 0, 0, 0, 0x00000000, bhvRedCoin),
@@ -209,7 +213,7 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_NONE, -2390, 895, -2236, 0, 0, 0, 0x00000000, bhvHiddenStarTrigger),
 		OBJECT(MODEL_THWOMP, 925, 2177, -2481, 0, -90, 0, 0x00000000, bhvThwomp2),
 		OBJECT(MODEL_NONE, 0, 200, 0, 0, 0, 0, 0x000A0000, bhvSpinAirborneWarp),
-		OBJECT(MODEL_WHOMP, -3413, 2250, -5335, 0, 0, 0, (2 << 24), bhvWhompKingBoss),
+		OBJECT(MODEL_WHOMP, -3413, 2250, -5335, 0, 0, 0, (4 << 24), bhvWhompKingBoss),
 		OBJECT(MODEL_YELLOW_COIN, -1449, 502, -1528, 0, 0, 0, 0x00000000, bhvYellowCoin),
 		OBJECT(MODEL_YELLOW_COIN, -2513, 582, -1528, 0, 0, 0, 0x00000000, bhvYellowCoin),
 		OBJECT(MODEL_YELLOW_COIN, -1949, 692, -1828, 0, 0, 0, 0x00000000, bhvYellowCoin),
@@ -262,9 +266,9 @@ const LevelScript level_wf_entry[] = {
 		OBJECT(MODEL_NONE, 238, -438, -1331, 0, 0, 0, (21 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, 304, -432, -1418, 0, 0, 0, (21 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, 363, -426, -1498, 0, 0, 0, (21 << 16), bhvWarp),
-		OBJECT(MODEL_NONE, 669, 200, -1298, 0, 0, 0, (20 << 16), bhvWarpPipe),
-		OBJECT(MODEL_STAR, -175, 4030, -5081, 0, 0, 0, (4 << 24), bhvStar),
-		OBJECT(MODEL_STAR, 1154, 2463, -5014, 0, 0, 0, (3 << 24), bhvStar),
+		OBJECT(MODEL_NONE, 669, 300, -1298, 0, 0, 0, (20 << 16), bhvWarpPipe),
+		OBJECT(MODEL_STAR, -175, 4030, -5081, 0, 0, 0, 0x00000000, bhvStar),
+		OBJECT(MODEL_STAR, 1154, 2463, -5014, 0, 0, 0, (1 << 24), bhvStar),
 		TERRAIN(wf_area_2_collision),
 		MACRO_OBJECTS(wf_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),

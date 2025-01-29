@@ -33,12 +33,12 @@
 /**
  * Number of coins to spawn the "100 coin" star. If you remove the define altogether, then there won't be a 100 coin star at all.
  */
-#define X_COIN_STAR 100
+
 
 /**
  * Stars don't kick you out of the level (does not play nicely with vanilla).
  */
-// #define NON_STOP_STARS
+#define NON_STOP_STARS
 
 /**
  * Bowser keys always exit the level. Only has an effect if NON_STOP_STARS is enabled.
