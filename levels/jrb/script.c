@@ -160,6 +160,7 @@ const LevelScript level_jrb_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 begin persistent block [level commands] */
+	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, jrb_area_1),
@@ -221,7 +222,7 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_STAR, 5535, 220, -611, 0, 0, 0, (5 << 24), bhvStar),
 		TERRAIN(jrb_area_1_collision),
 		MACRO_OBJECTS(jrb_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_HOT),
 		TERRAIN_TYPE(TERRAIN_SAND),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
@@ -240,7 +241,7 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_STAR, 11344, -4002, -5262, 0, 0, 0, (3 << 24), bhvStar),
 		TERRAIN(jrb_area_2_collision),
 		MACRO_OBJECTS(jrb_area_2_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_HOT),
 		TERRAIN_TYPE(TERRAIN_SLIDE),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
@@ -261,7 +262,7 @@ const LevelScript level_jrb_entry[] = {
 		OBJECT(MODEL_NONE, 3194, 1950, -4118, 0, 0, 0, (2 << 16), bhvFadingWarp),
 		TERRAIN(jrb_area_4_collision),
 		MACRO_OBJECTS(jrb_area_4_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_HOT),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */

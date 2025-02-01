@@ -366,6 +366,23 @@ extern const Gfx wiggler_seg5_dl_0500E640[];
 extern const Gfx wiggler_seg5_dl_0500E678[];
 extern const struct Animation *const wiggler_seg5_anims_0500EC8C[];
 
+// koopa_flag
+extern const GeoLayout koopa_flag_geo[];
+extern const Gfx koopa_flag_seg6_dl_06000968[];
+extern const Gfx koopa_flag_seg6_dl_06000A08[];
+extern const Gfx koopa_flag_seg6_dl_06000AB8[];
+extern const Gfx koopa_flag_seg6_dl_06000AE8[];
+extern const Gfx koopa_flag_seg6_dl_06000B08[];
+extern const Gfx koopa_flag_seg6_dl_06000BC0[];
+extern const Gfx koopa_flag_seg6_dl_06000BF8[];
+extern const Gfx koopa_flag_seg6_dl_06000CA8[];
+extern const Gfx koopa_flag_seg6_dl_06000CE0[];
+extern const Gfx koopa_flag_seg6_dl_06000D90[];
+extern const Gfx koopa_flag_seg6_dl_06000DB0[];
+extern const Gfx koopa_flag_seg6_dl_06000E20[];
+extern const Gfx koopa_flag_seg6_dl_06000E38[];
+extern const struct Animation *const koopa_flag_seg6_anims_06001028[];
+
 #include "TRAMPOLINE/geo_header.h"
 
 #include "TRAMPOLINE/collision_header.h"

@@ -44,3 +44,7 @@
 #include "wiggler_head/model.inc.c"
 #include "wiggler_head/anims/data.inc.c"
 #include "wiggler_head/anims/table.inc.c"
+
+#include "koopa_flag/model.inc.c"
+#include "koopa_flag/anims/data.inc.c"
+#include "koopa_flag/anims/table.inc.c"

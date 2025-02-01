@@ -12,6 +12,7 @@
 #define MODEL_LUIGI                            0x02        // unused
 #define MODEL_WIGGLER_HEAD                0x100      // wiggler_head_geo
 #define MODEL_WIGGLER_BODY                0x101        // wiggler_body_geo
+#define MODEL_KOOPA_FLAG                  0x102        // koopa_flag_geo
 
 /* Various static level geometry, the geo layout differs but terrain object presets treat them the same.*/
 
@@ -413,7 +414,6 @@
 #define MODEL_KOOPA_WITH_SHELL            0x68        // koopa_with_shell_geo
 #define MODEL_METALLIC_BALL               0x65        // metallic_ball_geo
 #define MODEL_CHAIN_CHOMP                 0x66        // chain_chomp
-#define MODEL_KOOPA_FLAG                  0x6A        // koopa_flag_geo
 #define MODEL_WOODEN_POST                 0x6B        // wooden_post_geo
 
 // group 15

@@ -25,3 +25,5 @@
 
 #include "wiggler_body/geo.inc.c"
 #include "wiggler_head/geo.inc.c"
+
+#include "koopa_flag/geo.inc.c"
