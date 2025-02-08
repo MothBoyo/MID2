@@ -2179,7 +2179,7 @@ const BehaviorScript bhvBlueFish[] = {
 
 const BehaviorScript bhvTankFishGroup[] = {
     BEGIN(OBJ_LIST_DEFAULT),
-    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
+    OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE | OBJ_FLAG_COMPUTE_DIST_TO_MARIO),
     SET_HOME(),
     BEGIN_LOOP(),
         CALL_NATIVE(bhv_tank_fish_group_loop),
