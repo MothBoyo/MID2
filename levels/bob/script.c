@@ -108,7 +108,7 @@ const LevelScript level_bob_entry[] = {
 		OBJECT(MODEL_STAR, 800, 2007, -6130, 0, 0, 0, (1 << 24), bhvStar),
 		OBJECT(MODEL_EXCLAMATION_BOX, -1604, 1745, -6447, 0, 0, 0, (2 << 16), bhvExclamationBox),
 		OBJECT(MODEL_NONE, 0, 200, 0, 0, 0, 0, 0x000A0000, bhvSpinAirborneWarp),
-		OBJECT(MODEL_BLACK_BOBOMB, -1443, 232, -396, 0, -135, 0, 0x00000000, bhvBobombBuddy),
+		OBJECT(MODEL_BLACK_BOBOMB, -1443, 232, -396, 0, -135, 0, (3 << 16), bhvBobombBuddy),
 		OBJECT(MODEL_MR_BLIZZARD_HIDDEN, -6421, 1295, -5703, 0, 0, 0, 0x00000000, bhvMrBlizzard),
 		OBJECT(MODEL_MR_BLIZZARD_HIDDEN, -1604, 1466, -6447, 0, 0, 0, 0x00000000, bhvMrBlizzard),
 		OBJECT(MODEL_MR_BLIZZARD_HIDDEN, -1460, 1282, -3362, 0, 0, 0, 0x00000000, bhvMrBlizzard),

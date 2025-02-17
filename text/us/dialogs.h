@@ -12,91 +12,70 @@
 #define SCRAM "scram--"
 #endif
 
-DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
-inside the painting\n\
-worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
-characters by facing them\n\
-and pressing [B]."))
-
-DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch out! If you wander\n\
-around here, you're liable\n\
-to be " PLASTERED " by a\n\
-water bomb!\n\
-Those enemy Bob-ombs love\n\
-to fight, and they're\n\
-always finding ways to\n\
-attack.\n\
-This meadow has become\n\
-a battlefield ever since\n\
-the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
-and go left up the path\n\
-to find the Big Bob-omb.\n\
-Please come back to see\n\
-me after you've retrieved\n\
-the Power Star!"))
-
-DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hey, you! It's dangerous\n\
-ahead, so listen up! Take\n\
-my advice.\n\
+DEFINE_DIALOG(DIALOG_000, 1, 5, 30, 200, _("\
+Thanks for coming Mario,\n\
+do you by any chance \n\
+remember that chud toad\n\
+whose fridge you fixed\n\
+recently?\n\
+Well, he's been mildly\n\
+furious ever since you\n\
+made him homeless.\n\
+Infact he decided to\n\
+destroy the world.\n\
+It'd be rather swell if\n\
+went and beat him to death\n\
+for us - especially since\n\
+I am NOT going in there\n\
 \n\
-Cross the two\n\
-bridges ahead, then\n\
-watch for falling\n\
-water bombs.\n\
-The Big Bob-omb at the\n\
-top of the mountain is\n\
-very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
-and we're on your side.\n\
-You can talk to us\n\
-whenever you'd like to!"))
+I mean - he already\n\
+turned my couch potato\n\
+son into a literal spud\n\
+with food magic or\n\
+something.\n\
+It sucks."))
 
-DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
+DEFINE_DIALOG(DIALOG_001, 1, 3, 95, 200, _("\
+Look man, I get it that\n\
+this place is meant to be\n\
+food themed,\n\
+But do you not feel like\n\
+some of these paintings\n\
+are WAY too fruity?"))
 
-DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
-Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
+DEFINE_DIALOG(DIALOG_002, 1, 2, 95, 200, _("\
+dude, you GOTTA kill that\n\
+toad-\n\
+he WHITEWASHED me.\n\
+\n\
+...\n\
+\n\
+I don't think you know how\n\
+it is to be white,\n\
+Since you're italian and\n\
+all..."))
+
+DEFINE_DIALOG(DIALOG_003, 1, 3, 95, 200, _("\
+Another twerp trapped in\n\
+the painting?\n\
+Listen here-\n\
+You can defeat those\n\
+peamen by making them\n\
+spin!\n\
+Give it a try."))
+
+DEFINE_DIALOG(DIALOG_004, 1, 5, 95, 200, _("\
+Oh? you're here to deal\n\
+with that toad?\n\
+\n\
+Sweet!\n\
+\n\
+If you collect enough\n\
+of these enigmatic\n\
+eggplants you should\n\
+be able to reach his\n\
+chamber.\n\
+Good luck!"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
 Hey, Mario! Is it true\n\
@@ -211,13 +190,13 @@ Do you want to Save?\n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
+Wow! Another eggplant!\n\
 Mario gains more courage\n\
 from the power of the\n\
-castle.\n\
+mansion.\n\
 Do you want to Save?\n\
 \n\
-//You Bet//Not Now"))
+//Yay//Nay"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 You can punch enemies to\n\
