@@ -24,10 +24,10 @@ made him homeless.\n\
 Infact he decided to\n\
 destroy the world.\n\
 It'd be rather swell if\n\
-went and beat him to death\n\
-for us - especially since\n\
-I am NOT going in there\n\
-\n\
+you went and beat him\n\
+to death for us,\n\
+especially since\n\
+I am NOT going in there.\n\
 I mean - he already\n\
 turned my couch potato\n\
 son into a literal spud\n\
@@ -58,7 +58,7 @@ all..."))
 DEFINE_DIALOG(DIALOG_003, 1, 3, 95, 200, _("\
 Another twerp trapped in\n\
 the painting?\n\
-Listen here-\n\
+Listen to me-\n\
 You can defeat those\n\
 peamen by making them\n\
 spin!\n\
@@ -112,19 +112,16 @@ fast! A human blur!\n\
 Here you go--you've won\n\
 it, fair and square!"))
 
-DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
-Extreme Danger!\n\
-Get close and press [C]^\n\
-for a better look.\n\
-Scary, huh?\n\
-See the Red Coin on top\n\
-of the stake?\n\
+DEFINE_DIALOG(DIALOG_008, 1, 4, 50, 200, _("\
+Oy, you - the italianoid\n\
+Listen here and listen\n\ 
+very well-\n\
 \n\
-When you collect eight of\n\
-them, a Power Star will\n\
-appear in the meadow\n\
-across the bridge."))
+You can see all of the\n\
+eggplants you have\n\ 
+collected or need to\n\
+collect by pausing!\n\
+Nifty, innit?"))
 
 DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
 Long time, no see! Wow,\n\
@@ -196,7 +193,7 @@ from the power of the\n\
 mansion.\n\
 Do you want to Save?\n\
 \n\
-//Yay//Nay"))
+//Yay////Nay"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
 You can punch enemies to\n\
@@ -683,29 +680,16 @@ medal, but here, take this\n\
 Star instead. You've\n\
 earned it!"))
 
-DEFINE_DIALOG(DIALOG_057, 1, 4, 30, 200, _("\
-Egad! My baby!! Have you\n\
-seen my baby??? She's\n\
-the most precious baby in\n\
-the whole wide world.\n\
-(They say she has my\n\
-beak...) I just can't\n\
-remember where I left\n\
-her.\n\
-Let's see...I stopped\n\
-for herring and ice cubes,\n\
-then I...oohh! I just\n\
-don't know!"))
+DEFINE_DIALOG(DIALOG_057, 1, 1, 30, 200, _("\
+The fetus.\n\
+Bring it to me."))
 
 DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
-You found my precious,\n\
-precious baby! Where\n\
-have you been? How can\n\
-I ever thank you, Mario?\n\
-Oh, I do have this...\n\
-...Star. Here, take it\n\
-with my eternal\n\
-gratitude."))
+With the sacrificial\n\
+lamb present, the\n\
+sacrifice can\n\
+commence.\n\
+Enjoy your eggplant."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 4, 30, 200, _("\
 That's not my baby! She\n\
