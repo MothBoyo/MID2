@@ -1689,7 +1689,7 @@ void bhv_bowser_init(void) {
     // Set Bowser B-param depending of the stage
     if (gCurrLevelNum == LEVEL_BOWSER_2) {
         level = BOWSER_BP_BITFS;
-    } else if (gCurrLevelNum == LEVEL_BOWSER_3) {
+    } else if (gCurrLevelNum == LEVEL_BITDW) {
         level = BOWSER_BP_BITS;
     } else { // LEVEL_BOWSER_1
         level = BOWSER_BP_BITDW;

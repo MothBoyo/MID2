@@ -53,7 +53,9 @@ void bobomb_check_interactions(void) {
         }
 
         if (o->oInteractStatus & INT_STATUS_TOUCHED_BOB_OMB) {
-            o->oAction = BOBOMB_ACT_EXPLODE;
+            // Prevent immediate explosion
+            o->oBobombFuseTimer = 0;
+            o->oAction = BOBOMB_ACT_PATROL; // Change to patrol or another non-exploding action
         }
 
         o->oInteractStatus = INT_STATUS_NONE;
