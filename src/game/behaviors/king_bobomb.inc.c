@@ -43,16 +43,18 @@ s32 king_bobomb_check_hit_bobomb(void) {
     f32 dist;
     struct Object *bobomb = cur_obj_find_nearest_object_with_behavior(bhvBobomb, &dist);
 
-    if (bobomb != NULL && dist < 1000.0f) {  
+    if (bobomb != NULL && dist < 1000.0f) {
         struct Object *king_bobomb = o;
 
-        if (dist < 160.0f) {  
-            cur_obj_init_animation_with_sound(KING_BOBOMB_ANIM_STOMP); 
+        if (dist < 200.0f) {
+            cur_obj_init_animation_with_sound(KING_BOBOMB_ANIM_STOMP);
 
             struct Object *explosion = spawn_object(king_bobomb, MODEL_EXPLOSION, bhvExplosion);
             explosion->oGraphYOffset += 80.0f;
             king_bobomb->oHealth--;
             obj_mark_for_deletion(bobomb);
+
+            spawn_mist_particles_variable(0, 0, 100.0f);
 
             if (king_bobomb->oHealth <= 0) {
                 king_bobomb->oAction = KING_BOBOMB_ACT_DEATH;
@@ -72,6 +74,9 @@ s32 mario_is_far_below_object(f32 min) {
 
 void king_bobomb_act_active(void) {
     cur_obj_become_tangible();
+    static s32 jtimer = 0;
+    static s32 jdelay = 0;
+    static f32 jvel = 0.0f;
 
     if (o->oPosY - o->oHomeY < -100.0f) {
         o->oAction = KING_BOBOMB_ACT_RETURN_HOME;
@@ -98,10 +103,17 @@ void king_bobomb_act_active(void) {
             o->oForwardVel = 10.0f;
             cur_obj_rotate_yaw_toward(o->oAngleToMario, 0x100);
 
-            // Add jump logic
-            if (o->oTimer % 120 == 0) { // Jump every 2 seconds
-                o->oVelY = 50.0f; // Set jump velocity
-                cur_obj_play_sound_2(SOUND_OBJ_KING_BOBOMB_JUMP);
+        if (jtimer == 0) {
+            jdelay = random_u16() % 131 + 120; // guh
+            jvel = (random_float() * 45.0f) + 25.0f; // buh
+        }
+
+        if (jtimer < jdelay) {
+            jtimer++; // :kappa:
+        } else {
+            o->oVelY = jvel;
+            cur_obj_play_sound_2(SOUND_OBJ_KING_BOBOMB_JUMP);
+            jtimer = 0;
             }
         } else {
             o->oForwardVel = 0.0f;
@@ -126,10 +138,21 @@ void king_bobomb_act_active(void) {
     king_bobomb_check_hit_bobomb();
 }
 
+void render_spawn_bobomb_text(void) {
+    s16 x = 10;
+    s16 y = 10;
+
+    print_text_fmt_int(x, y, "Press B !");
+}
+
 static f32 bobomb_timer = 0.0f;
 
 void check_bobomb_spawn(void) {
     bobomb_timer += 1.0f;
+
+    if (bobomb_timer > 80) {
+        render_spawn_bobomb_text();
+    }
 
     if (gMarioState->input & INPUT_B_PRESSED) {
         if (bobomb_timer > 80) {
@@ -141,7 +164,6 @@ void check_bobomb_spawn(void) {
                 bobomb->oPosZ = gMarioObject->oPosZ + 50.0f * cosf(gMarioState->faceAngle[1]);
                 bobomb->oMoveAngleYaw = gMarioState->faceAngle[1];
             }
-
             bobomb_timer = 0.0f;
         }
     }
@@ -162,6 +184,15 @@ void king_bobomb_act_activate(void) { // act 1
     if (mario_is_far_below_object(1200.0f)) {
         o->oAction = KING_BOBOMB_ACT_INACTIVE;
         stop_background_music(SEQUENCE_ARGS(4, SEQ_EVENT_BOSS));
+    }
+}
+
+void render_king_bobomb_health(void) {
+    s16 x = 20;
+    s16 y = 210;
+
+    if (o->oHealth > 0) {
+        print_text_fmt_int(x, y, "Health:%d", o->oHealth);
     }
 }
 
@@ -268,6 +299,9 @@ void king_bobomb_act_death(void) { // act 7
         gSecondCameraFocus->oAngleVelYaw = o->oAngleVelYaw;
 
         o->oAction = KING_BOBOMB_ACT_STOP_MUSIC;
+
+        o->oForwardVel = 0.0f;
+        o->oVelY = 0.0f;
     }
 }
 
@@ -437,5 +471,6 @@ void bhv_king_bobomb_loop(void) {
     }
 
     o->oInteractStatus = INT_STATUS_NONE;
+    render_king_bobomb_health();
     curr_obj_random_blink(&o->oKingBobombBlinkTimer);
 }
