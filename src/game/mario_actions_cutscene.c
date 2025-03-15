@@ -1936,7 +1936,7 @@ static void jumbo_star_cutscene_flying(struct MarioState *m) {
     if (m->actionTimer++ == 480) {
         set_mario_action(m, ACT_FREEFALL, 0);
         play_sound(SOUND_MARIO_WAAAOOOW, m->marioObj->header.gfx.cameraToObject);
-        level_trigger_warp(m, WARP_OP_CREDITS_START);
+        initiate_warp(LEVEL_ENDING, 0x0A);
     }
 }
 
